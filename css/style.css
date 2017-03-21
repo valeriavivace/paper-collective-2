@@ -1,5 +1,5 @@
 html{
-  font-size: 13px;
+  font-size: 16px;
   font-family: sans-serif;
 }
 /**
@@ -13,7 +13,43 @@ Typo
   background-color: #becbb7;
 }
 .bg-dark-green{
-  background-color: #83a196;
+  background-color: #7c9180;
+}
+.text-center{
+  text-align: center;
+}
+.text-white{
+  color: white;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-bold{
+  font-weight: bold;
+}
+.shop{
+  text-shadow: -2px 0  white, 0 2px  white, 2px 0  white, 0 -2px  white;
+  color: #7c9180;
+  font-size: 6rem;
+  padding-bottom: 20px;
+}
+
+.linea-piccola{
+  width: 30px;
+  border: 4px solid white;
+  margin: 30px auto 10px auto;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 2rem;
+  padding: 5px 0;
+}
+
+p{
+  font-size: 1.5rem;
+  padding: 30px 0 0 0;
 }
 /****Header****/
 header{
@@ -27,21 +63,26 @@ header{
     flex-direction: column;
     align-items: center;
   }
-
+  .logo img{
+    width: 80px;
+  }
   header .logo:hover{
     opacity: 0.7;
   }
   header a{
     color: gray;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 50% 0;
   }
   header a:hover{
     color: white;
   }
+  header li:first-child{
+    padding-top: 100px;
+  }
   header li{
-    padding-bottom: 100%;
+    padding-bottom: 50px;
   }
 /*****main*****/
 
@@ -50,26 +91,43 @@ main{
   width: 90%;
 }
 .box-principale{
-  height: 40vw;
+  height: 50vw;
+}
+.box-testo{
+  padding: 30px 0;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .box{
   width: 50%;
+  height: 100%;
   justify-content: center;
+  flex-direction: column;
   display: inline-flex;
   align-items: center;
   position: relative;
 }
 .box img{
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 80%;
+  max-height: 80%;
 }
 .box-hover{
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   width: 100%;
   opacity: 0;
+  transition: ease-in-out 0.2s;
 }
 .box-hover:hover{
   opacity: 1;
+}
+.box-destra{
+  float: right;
+}
+.testo{
+  padding: 0 50px;
 }
