@@ -8,6 +8,12 @@ Typo
 .img-responsive{
   max-width: 100%;
 }
+.bg-red{
+  background-color:#7a242e;
+}
+.bg-light-blue{
+  background-color: #9cb5c6;
+}
 .bg-dark-pink{
   background-color: #c5a591;
 }
@@ -40,6 +46,9 @@ Typo
 }
 .float-right{
   float: right;
+}
+.float-left{
+  float: left;
 }
 .linea-piccola{
   width: 30px;
@@ -117,7 +126,7 @@ width: 90%;
   .box-prodotto img{
     margin-top: 20px;
   }
-  .testo{
+  .testo-principale{
     padding: 0 50px;
   }
 .box-testo{
@@ -139,6 +148,9 @@ width: 90%;
     align-items: center;
     justify-content: center;
   }
+  .box-prodotto h2{
+    text-transform:uppercase;
+  }
 .box-hover{
   color: white;
   display: flex;
@@ -154,4 +166,7 @@ width: 90%;
 }
 .box-hover:hover{
   opacity: 1;
+}
+.testo-secondario{
+  padding: 0 300px;
 }
