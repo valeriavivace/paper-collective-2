@@ -14,6 +14,9 @@ Typo
 .bg-light-blue{
   background-color: #9cb5c6;
 }
+.bg-purple{
+  background-color: #646873;
+}
 .bg-dark-pink{
   background-color: #c5a591;
 }
@@ -169,4 +172,11 @@ width: 90%;
 }
 .testo-secondario{
   padding: 0 300px;
+}
+.box-due-testi-info{
+  width: 50%;
+}
+.box-due-testi-info a{
+  text-decoration: none;
+  color: black;
 }
