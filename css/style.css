@@ -16,7 +16,11 @@ Typo
 }
 .bg-purple{
   background-color: #646873;
-}.bg-light-purple{
+}
+.bg-brown{
+  background-color: #2d2d2d;
+}
+.bg-light-purple{
   background-color: #b5b6bb;
 }
 .bg-dark-pink{
@@ -70,7 +74,10 @@ h2{
   font-size: 2rem;
   padding: 5px 0;
 }
-
+h3{
+  font-size: 1.5rem;
+  padding: 40px;
+}
 p{
   font-size: 1.5rem;
   padding: 30px 0 0 0;
@@ -110,7 +117,8 @@ header{
   }
 /*****main*****/
 
-main{
+main,
+footer{
 float: right;
 width: 90%;
 }
@@ -189,15 +197,89 @@ width: 90%;
   text-decoration: none;
   color: black;
 }
+/****box-immagine-intera**/
 .box-immagine-intera{
   background-size: cover;
   background-position: center center;
   width: 100%;
   height: 70vh;
   }
-.secondo{
-  background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/Sale_03.jpg);
+  .secondo{
+    background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/Sale_03.jpg);
+  }
+  .terzo{
+    background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/TLN_Natural_Tan-web-e1462806039949.jpg);
+  }
+/********footer***********/
+/*****contatti***/
+.contatti{
+  display: inline-flex;
+  width: 100%;
+  border-top: 2px solid grey;
 }
-.terzo{
-  background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/TLN_Natural_Tan-web-e1462806039949.jpg);
+.contatti-info{
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid gray;
+  padding: 30px 0;
+}
+.contatti-info:last-child{
+  border-right:none;
+}
+.contatti p{
+  font-size: 1rem;
+  color:#333;
+  margin-top: -20px;
+}
+.contatti li{
+  padding-bottom: 10px;
+}
+.contatti li:last-child{
+  padding-bottom: 0;
+}
+footer ul a{
+  color:#333;
+  text-decoration: none;
+}
+footer ul a:hover{
+  color:#333;
+  text-decoration: underline;
+}
+/**
+copyright
+**/
+.copyright{
+  padding: 30px 0;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  }
+.copy-info{
+  width: 50%;
+  display: flex;
+}
+.copy-info img{
+  margin-left: 10px;
+}
+.copy-info p{
+  margin-left: 50px;
+}
+.copy-info a{
+  color: white;
+  font-size: 1.5rem;
+}
+.copy-info a:hover{
+  color: #929292;
+  transition: ease-in-out 0.2s;
+}
+.copy-info li:last-child{
+  margin-right: 40px;
+}
+.copy-info li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.social{
+  display: flex;
+  justify-content: flex-end;
 }
