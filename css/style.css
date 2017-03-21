@@ -16,6 +16,8 @@ Typo
 }
 .bg-purple{
   background-color: #646873;
+}.bg-light-purple{
+  background-color: #b5b6bb;
 }
 .bg-dark-pink{
   background-color: #c5a591;
@@ -58,6 +60,9 @@ Typo
   border: 4px solid white;
   margin: 30px auto 10px auto;
 }
+.box-bordo{
+  border-bottom: 1px solid gray;
+  }
 h1{
   font-size: 4rem;
 }
@@ -173,10 +178,26 @@ width: 90%;
 .testo-secondario{
   padding: 0 300px;
 }
+.box-due-testi{
+  display: inline-flex;
+  width: 100%;
+}
 .box-due-testi-info{
   width: 50%;
 }
 .box-due-testi-info a{
   text-decoration: none;
   color: black;
+}
+.box-immagine-intera{
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 70vh;
+  }
+.secondo{
+  background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/Sale_03.jpg);
+}
+.terzo{
+  background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/TLN_Natural_Tan-web-e1462806039949.jpg);
 }
