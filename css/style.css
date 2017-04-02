@@ -123,7 +123,7 @@ float: right;
 width: 90%;
 }
 .box-principale{
-  height: 700px;
+  height: 30rem;
   }
   .box{
     width: 50%;
@@ -228,6 +228,9 @@ width: 90%;
 }
 .contatti-info:last-child{
   border-right:none;
+}
+.contatti h3{
+  padding: 0 0 30px 0;
 }
 .contatti p{
   font-size: 1rem;
