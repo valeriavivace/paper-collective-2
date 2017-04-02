@@ -267,6 +267,8 @@ copyright
 }
 .copy-info img{
   margin-left: 10px;
+  width: 43px;
+  height: auto;
 }
 .copy-info p{
   margin-left: 50px;
