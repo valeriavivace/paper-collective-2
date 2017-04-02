@@ -156,7 +156,8 @@ width: 90%;
   margin:0 25%;
 }
 .box-prodotto{
-  width: 33.33333%;
+  padding-left:80px;
+  padding-right: 80px;
   height: 100%;
   position: relative;
   display: inline-flex;
@@ -231,7 +232,8 @@ width: 90%;
 .contatti p{
   font-size: 1rem;
   color:#333;
-  margin-top: -20px;
+  line-height: 25px;
+  padding: 0;
 }
 .contatti li{
   padding-bottom: 10px;
