@@ -433,32 +433,11 @@
            nextButton: '.swiper-button-next',
            prevButton: '.swiper-button-prev',
            slidesPerView: 3,
-           centeredSlides: true,
+           centeredSlides: false,
            paginationClickable: true,
            loop:true
        });
-       document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
-           e.preventDefault();
-           swiper.prependSlide([
-               '<div class="box-prodotto">Slide ' + (--prependNumber) + '</div>',
-               '<div class="box-prodotto">Slide ' + (--prependNumber) + '</div>'
-           ]);
-       });
-       document.querySelector('.prepend-slide').addEventListener('click', function (e) {
-           e.preventDefault();
-           swiper.prependSlide('<div class="box-prodotto">Slide ' + (--prependNumber) + '</div>');
-       });
-       document.querySelector('.append-slide').addEventListener('click', function (e) {
-           e.preventDefault();
-           swiper.appendSlide('<div class="box-prodotto">Slide ' + (++appendNumber) + '</div>');
-       });
-       document.querySelector('.append-2-slides').addEventListener('click', function (e) {
-           e.preventDefault();
-           swiper.appendSlide([
-               '<div class="box-prodotto">Slide ' + (++appendNumber) + '</div>',
-               '<div class="box-prodotto">Slide ' + (++appendNumber) + '</div>'
-           ]);
-       });
+
        </script>
   </body>
 </html>
